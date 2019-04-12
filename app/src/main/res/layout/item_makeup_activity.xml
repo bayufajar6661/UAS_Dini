@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/carditem_planet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:padding="3dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/img_image"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_nama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini nama"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_kategori"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini kategori"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_eyebrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="eyebrow"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_foundation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini foundation"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_bedak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini bedak"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_lipstik"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini lipstik"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_eyeshadow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini eyeshadow"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_highlighter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini highlighter"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_blushon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini blushon"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_shading"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini shading"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_mascara"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini mascara"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txt_eyeliner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ini eyeliner"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
